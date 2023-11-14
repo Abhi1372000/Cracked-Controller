@@ -3,6 +3,7 @@
     height: 30%;
     padding: 0.5rem;
     display: flex;
+    align-items: center;
 }
 
 .logoContainer{
@@ -26,30 +27,10 @@
     margin: 2px;
 }
 
-.searchBoxContainer{
-    display: flex;
-    align-items: center;
-    padding: 0.2rem;
-}
-.searchBoxInput{
-    width: 60rem;
-    height: 3rem;
-    border-radius: 1rem;
-    margin: 0 0.5rem;
-    padding: 0 0.5rem;
-    border: none;
-    font-size: 1.1rem;
-    font-weight: 550;
-    text-align: right;
-}
-
-.searchBoxBtnContainer{
-    margin: 0 0.5rem;
-}
-
-.searchBoxBtn{
+.darkModeBtn{
     height: 3rem;
     width: 5rem;
     border-radius: 1rem;
     border: none;
 }
+
