@@ -1,9 +1,12 @@
-
+import GameGrid from "../components/GameGrid/GameGrid";
 
 const Screen = () => {
   return (
-    <><div>Screen</div></>
-  )
-}
+    <>
+      <div className="mainContentScreen">Screen</div>
+      <GameGrid />  
+    </>
+  );
+};
 
-export default Screen
+export default Screen;

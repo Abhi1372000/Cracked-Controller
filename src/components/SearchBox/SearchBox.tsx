@@ -10,6 +10,7 @@ const SearchBox = () => {
         "width": "5rem",
         "border-radius": "1rem",
         "border": "none",
+        "cursor": "pointer",
     }
     const searchBoxInputStyle = {
         "width": "60rem",
