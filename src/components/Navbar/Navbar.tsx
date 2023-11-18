@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon } from "@fortawesome/free-solid-svg-icons";
-
 import SearchBox from "../SearchBox/SearchBox";
 import PrimaryButton from "../Buttons/PrimaryButton";
 
@@ -19,15 +16,7 @@ const Navbar = () => {
           <p>Cracked Controller</p>
         </div>
         <SearchBox />
-        <div className="darkModeBtnContainer">
-          <button className="darkModeBtn">
-            <FontAwesomeIcon
-              icon={faMoon}
-              size="xl"
-              style={{ color: "#000000" }}
-            />
-          </button>
-        </div>
+
         <PrimaryButton
           btnLabel="Login"
           bgColor="#338CE6"
