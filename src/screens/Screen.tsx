@@ -14,6 +14,7 @@ const Screen: React.FC<ScreenProps> = (drkMod) => {
     display: "flex",
     width:  "100%",
     backgroundColor: drkMod.drkMod ? "#151515" : "white", 
+    color: drkMod.drkMod ? "white" : "black",
   }
 
   return (

@@ -1,4 +1,4 @@
 export const credentials = {
-    API_KEY: "bb4742cdd19140539eb1194be3d82dfa",
+    API_KEY: "0356fb6bcc654c82aa3085ef6bf07552",
     BASE_URL:'https://api.rawg.io/api',
 }

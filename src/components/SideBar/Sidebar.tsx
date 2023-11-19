@@ -1,3 +1,5 @@
+import GenerList from "../GenerList/GenerList"
+
 const Sidebar = () => {
     
     const SidebarStyle: React.CSSProperties = {
@@ -6,7 +8,12 @@ const Sidebar = () => {
     }
 
   return (
-    <div style={SidebarStyle}>Sidebar</div>
+    <>
+      <div style={SidebarStyle}>
+        <p>Sidebar</p>
+        <GenerList />
+      </div>
+    </>
   )
 }
 
